@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
       names.each { |name|
         pigeons[name] || = {}
         pigeons[name][attkey] || = []
-        pigeons[name][attkey]
+        pigeons[name][attkey].push 
   
   
   
