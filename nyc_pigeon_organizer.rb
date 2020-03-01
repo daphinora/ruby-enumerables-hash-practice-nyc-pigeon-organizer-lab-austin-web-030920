@@ -17,5 +17,3 @@ def nyc_pigeon_organizer(data)
   end
   pigeons
 end
-
-#||= is amazing--sets a new hash/array ready for your key/value!
