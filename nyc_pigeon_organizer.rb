@@ -6,8 +6,8 @@ def nyc_pigeon_organizer(data)
   data.each { |attkey, attvalue|
     attvalue.each { |call, names|
       names.each { |name|
-        pigeons[name] || = {}
-        pigeons[name][attkey] || = []
+        pigeons[name] ||= {}
+        pigeons[name][attkey] ||= []
         pigeons[name][attkey].push(call.to_s)
 
   #to_s is basically turning the integers into strings!
