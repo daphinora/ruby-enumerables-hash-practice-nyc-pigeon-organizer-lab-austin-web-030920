@@ -14,6 +14,7 @@ def nyc_pigeon_organizer(data)
         x.each { |i|
         if b_name === i
           list_of_pigeons[i][:color] << color.to_s
+          #to_s turns the shovelled  integer into a string!!
 end
 
 
