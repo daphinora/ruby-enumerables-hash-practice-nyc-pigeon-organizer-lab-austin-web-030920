@@ -7,8 +7,8 @@ def nyc_pigeon_organizer(data)
     attvalue.each { |call, names|
       names.each { |name|
         pigeons[name] || = {}
-        pigeons[attkey] || = []
-        pigeons
+        pigeons[name][attkey] || = []
+        pigeons[name][]
   
   
   
