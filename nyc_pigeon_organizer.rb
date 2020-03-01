@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
         :color => [], :gender => [], :lives => []
       }}}}
       
-  x = data.list 
+  x = list_of_pigeons.each
 end
 
 
