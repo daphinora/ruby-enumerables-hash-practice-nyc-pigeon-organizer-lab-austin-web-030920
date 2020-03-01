@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     value.each do |diffkey, diffvalue|
       diffvalue.each do |names|
       list_of_pigeons[names] = {
-        
+        :color => [], 
       }
 end
 
