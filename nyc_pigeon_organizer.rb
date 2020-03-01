@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
+  pigeons
 end
 
   #to_s is basically turning the integers into strings!
