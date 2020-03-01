@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
         if b_name === i
           list_of_pigeons[i][:color] << color.to_s
           #to_s turns the shoveled  integer into a string!!
-        }}}
+        }}
 end
 
 
