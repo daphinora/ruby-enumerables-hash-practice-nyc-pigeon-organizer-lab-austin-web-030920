@@ -11,7 +11,8 @@ def nyc_pigeon_organizer(data)
   x = list_of_pigeons.keys
     data[:color].each { |color, name|
       name.each { |b_name|
-        x.each { |
+        x.each { |i|
+        
 end
 
 
