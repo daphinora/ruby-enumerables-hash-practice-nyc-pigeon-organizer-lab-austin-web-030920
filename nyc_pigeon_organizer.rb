@@ -12,7 +12,8 @@ def nyc_pigeon_organizer(data)
     data[:color].each { |color, name|
       name.each { |b_name|
         x.each { |i|
-        if b_name === i 
+        if b_name === i
+          list_of_pigeons
 end
 
 
